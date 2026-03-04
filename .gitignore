@@ -1,0 +1,18 @@
+# Fichiers de compilation
+*.o
+*.obj
+*.exe
+*.out
+
+# CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Qt
+*.pro.user
+*.qmake.stash
+Makefile
+moc_*
+ui_*
+qrc_*
