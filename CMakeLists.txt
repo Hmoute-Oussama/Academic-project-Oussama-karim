@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 4.1)
-project(untitled5)
+cmake_minimum_required(VERSION 3.16)
+project(Academic-project-Oussama-karim)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_AUTOMOC ON)
@@ -14,16 +14,29 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(untitled5 main.cpp
-        Model/Node.cpp
-        Model/Node.h
-        Model/Permission.cpp
-        Model/Permission.h
-        Model/FileNode.cpp
-        Model/FileNode.h
-        Model/DirectoryNode.cpp
-        Model/DirectoryNode.h)
-target_link_libraries(untitled5
+add_executable(Academic-project-Oussama-karim
+        main.cpp
+        model/Node.cpp
+        model/Node.h
+        model/Permission.cpp
+        model/Permission.h
+        model/FileNode.cpp
+        model/FileNode.h
+        model/DirectoryNode.cpp
+        model/DirectoryNode.h
+        model/SymLink.cpp
+        model/SymLink.h
+        model/HardLink.cpp
+        model/HardLink.h
+        model/FileSystem.cpp
+        model/FileSystem.h
+        model/PathParser.cpp
+        model/PathParser.h
+        model/User.cpp
+        model/User.h
+)
+
+target_link_libraries(Academic-project-Oussama-karim
         Qt::Core
         Qt::Gui
         Qt::Widgets
