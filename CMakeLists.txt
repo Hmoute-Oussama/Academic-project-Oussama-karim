@@ -34,6 +34,22 @@ add_executable(Academic-project-Oussama-karim
         model/PathParser.h
         model/User.cpp
         model/User.h
+        model/Group.cpp
+        model/Group.h
+        model/FileLock.cpp
+        model/FileLock.h
+        model/Journal.cpp
+        model/Journal.h
+        model/Snapshot.cpp
+        model/Snapshot.h
+        model/SearchEngine.cpp
+        model/SearchEngine.h
+        model/DiskManager.cpp
+        model/DiskManager.h
+        model/Trash.cpp
+        model/Trash.h
+        model/Quota.cpp
+        model/Quota.h
 )
 
 target_link_libraries(Academic-project-Oussama-karim
